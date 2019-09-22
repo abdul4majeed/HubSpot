@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+*
+{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+
+body
+{
+    font-family: "Poppins","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/* Top Navigation Link */
+.container-fluid-top-nav
+{
+    background-color: #f5f8fa;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+.container-fluid-top-nav + div
+{
+    padding:20px !important;
+}
+.container-left-padding
+{
+    width: 1100px;
+    margin: auto;
+}
+
+.container-left-padding .row
+{
+    padding:5px 0px;
+}
+
+.navbar
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+.nav-item.padding
+{
+    padding: 8px 1rem 0 0;
+}
+
+.nav-link
+{
+    color:white;
+}
+
+.language{
+    border-right: 2px solid #cbd6e2;
+    padding: 0;
+    padding-right: 21px !important;
+}
+
+.language , .contact-us
+{
+    font-size: 14px;
+    font-weight: 300;
+}
+.language::before
+{
+   content: url('asset/img/language-switcher-icon.svg');
+   display: inline-block;
+   width:1rem;
+   height:1rem;
+   vertical-align: sub;
+   margin: 0 8px 0 0;
+}
+
+.language::after
+{
+    content: '\25BC';
+    display: inline-block;
+    position: relative;
+    color: #7c98b6;
+    font-size: 13px;
+    line-height: 1;
+    margin: 0 0.25rem 0 1rem;
+}
+
+.language-div 
+{
+    display: none;
+    transform: translateY(-11px);
+}
+
+.language-div::after
+{
+    position: absolute;
+    display: inline-block;
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    top: -10px;
+    left: 59%;
+    right: 0;
+    bottom: 0;
+
+}
+
+.language:hover + div
+{
+    display: block;
+}
+
+.language-div:hover
+{
+    display: block;
+}
+
+.language-div a:hover
+{
+    background-color: #e5f5f8 !important;
+}
+
+.language-div:before
+{
+    content: ' ';
+    width: 100%;
+    height: 10px;
+    display: inline-block;
+    transform: translateY(-16px);
+    position: absolute;
+}
+
+.top-nav a
+{
+    color : #33475B !important;
+}
+
+
+/* Right Hand Portion */
+
+
+.right-side .search-input input
+{
+    background-color: #fff;
+    background-image: url(//cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/search%20icon.png);
+    background-position: left 0.3rem center;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    text-align: left;
+    width: 0;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    -moz-transition:all 0.5s ease;
+  -webkit-transition:all 0.5s ease;
+  transition: all 0.5s ease;
+    
+}
+
+
+input[type="search"]:focus , input[type="search"]:hover{
+
+    width:225px;
+    border: 1px solid #cbd6e2;
+  padding: 0 1.5rem;
+
+  }
+
+  .login-btn
+  {
+      margin-left : 1rem;
+      margin-right : 0.75rem;
+  }
+
+  .login-btn button
+  {
+    color: #ff7a59;
+    background: #FFFFFF;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.563rem 1rem;
+    font-family: "Poppins","Helvetica Neue",Helvetica,Arial,sans-serif;
+    border: 1px solid #ff7a59;
+  }
+  .login-btn button:hover
+  {
+    background-color: #fff8f6;
+    color: #ff7a59;
+  }
+
+  .free-hub-btn button
+  {
+    background-color: #ff7a59;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.563rem 1rem;
+  }
+
+  .free-hub-btn button:hover
+  {
+    background-color: #ff8f73;
+    color: #fff;
+  }
+
+
+
+/* End Top Navigation Link */
+
+
+/* Main Nav Bar */
+
+.arrow::after
+{
+
+    content: '\25BC';
+    display: inline-block;
+    position: relative;
+    color: #7c98b6;
+    font-size: 13px;
+    line-height: 1;
+    margin: 0 0.25rem 0 1rem;
+
+}
+
+.arrow-hover-box-software, .arrow-hover-box-resources , .arrow-hover-box-partners ,.arrow-hover-box-about
+{
+    display:none;
+    transform: translateY(-11px);
+   width:900px;
+   left:16%;
+}
+.arrow-hover-box-about
+{
+    left:25%;
+}
+.arrow-hover-box-software::before, .arrow-hover-box-resources::before , .arrow-hover-box-partners::before , .arrow-hover-box-about::before
+{
+    position: absolute;
+    display: inline-block;
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgba(0,0,0,0.15);
+    top: -10px;
+    right: 0;
+    bottom: 0;
+}
+.arrow-hover-box-software::before
+{
+    left: 30rem;
+}
+
+.arrow-hover-box-resources::before
+{
+    left: 42.7rem;
+}
+
+.arrow-hover-box-partners::before
+{
+    left: 49.9rem;
+}
+
+.arrow-hover-box-about::before
+{
+    left: 49.7rem;
+}
+
+.arrow:hover + div
+{
+    display: block;
+}
+
+.arrow-hover-box-software:hover, .arrow-hover-box-resources:hover , .arrow-hover-box-partners:hover, .arrow-hover-box-about:hover
+{
+    display: block;
+}
+
+/* Main Nav Bar End */
+
+/* Main Hero Section Started */
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2019/clouds-desktop.svg");
+  
+   
+    /* Set a specific height */
+    height:420px;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: right 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text, .right-img {
+    position: absolute;
+    bottom: 0;
+    top: 1rem;
+    right: 0;
+    height: auto;
+    z-index: 1;
+    width: 100%;
+    height: 500px;
+    padding: 1rem 7rem 5rem;
+  }
+
+  .right-img
+  {
+      top:13rem;
+  }
+  svg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    z-index: 1;
+  }
+
+  /*  Main Hero Section Ended */
+
+/* Media Queries Section  */
+
+@media only screen and (max-width: 1130px) {
+    .container-left-padding {
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
