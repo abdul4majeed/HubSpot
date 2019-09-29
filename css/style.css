@@ -190,6 +190,11 @@ input[type="search"]:focus , input[type="search"]:hover{
     color: #ff7a59;
   }
 
+  .login-btn button a
+  {
+    text-decoration: none;
+  }
+
   .free-hub-btn button
   {
     background-color: #ff7a59;
@@ -203,6 +208,11 @@ input[type="search"]:focus , input[type="search"]:hover{
   {
     background-color: #ff8f73;
     color: #fff;
+  }
+
+  .free-hub-btn button a
+  {
+    text-decoration: none;
   }
 
 
