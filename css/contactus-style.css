@@ -1,0 +1,324 @@
+*
+{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+
+body
+{
+    font-family: "Poppins","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/* Top Navigation Link */
+.container-fluid-top-nav
+{
+    background-color: #f5f8fa;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+.container-fluid-top-nav + div
+{
+    padding:20px !important;
+}
+.container-left-padding
+{
+    width: 1100px;
+    margin: auto;
+}
+
+.container-left-padding .row
+{
+    padding:5px 0px;
+}
+
+.navbar
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+.nav-item.padding
+{
+    padding: 8px 1rem 0 0;
+}
+
+.nav-link
+{
+    color:white;
+}
+
+.language{
+    border-right: 2px solid #cbd6e2;
+    padding: 0;
+    padding-right: 21px !important;
+}
+
+.language , .contact-us
+{
+    font-size: 14px;
+    font-weight: 300;
+}
+.language::before
+{
+   content: url('asset/img/language-switcher-icon.svg');
+   display: inline-block;
+   width:1rem;
+   height:1rem;
+   vertical-align: text-top;
+   margin: 0 8px 0 0;
+}
+
+.language::after
+{
+    content: '\25BC';
+    display: inline-block;
+    position: relative;
+    color: #7c98b6;
+    font-size: 13px;
+    line-height: 1;
+    margin: 0 0.25rem 0 1rem;
+}
+
+.language-div 
+{
+    display: none;
+    transform: translateY(-11px);
+}
+
+.language-div::after
+{
+    position: absolute;
+    display: inline-block;
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    top: -10px;
+    left: 59%;
+    right: 0;
+    bottom: 0;
+
+}
+
+.language:hover + div
+{
+    display: block;
+}
+
+.language-div:hover
+{
+    display: block;
+}
+
+.language-div a:hover
+{
+    background-color: #e5f5f8 !important;
+}
+
+.language-div:before
+{
+    content: ' ';
+    width: 100%;
+    height: 10px;
+    display: inline-block;
+    transform: translateY(-16px);
+    position: absolute;
+}
+
+.top-nav .right-side div
+{
+    padding : 1rem;
+}
+
+.top-nav .right-side a
+{
+    font-size: 1rem;
+    color : #2D3E50 !important;
+}
+
+.top-nav .right-side a:hover
+{
+   text-decoration: none;
+}
+
+
+
+
+
+/* End Top Navigation Link */
+
+/* Hero Image  */
+#main-section {
+    background-image: url(https://offers.hubspot.com/hubfs/assets/hubspot.com/landing-pages/sales/Images/contact_sales_2-compressor.jpg);
+    height: 70vh;
+    position: relative;
+    background-position-y: -59px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4.5rem;
+}
+
+#main-section .text-header
+{
+    padding: 5rem;
+    color: #fff;
+}
+
+#main-section .text-header .text
+{
+    width:70%;
+    margin:auto;
+}
+#main-section .body
+{
+    margin:auto;
+}
+
+#main-section .body p
+{
+    width: 59%;
+    line-height: 1.7;
+    margin: auto;
+    font-size: 18px;
+}
+
+/* Hero Image End */
+
+/* Box-Section */
+#box-section
+{
+    background-color: #f9f8f7;
+}
+
+#box-section .row-styling
+{
+    position: relative;
+       top: -70px;
+       background-color: #f9f8f7;
+}
+
+#box-section .row-styling .box
+{
+    background-color: #fff;margin: 1.3rem 0.3rem; padding:3rem;
+}
+
+#box-section .row-styling .box .side .title
+{
+    font-size: 1.25em;
+    font-weight: 300;
+    margin-bottom: 0;
+    line-height: 1.6em;
+    letter-spacing: .05em;
+}
+
+#box-section .row-styling .box .side .body a
+{
+    cursor: pointer;
+    color: #1da1db; font-size:26px; font-weight: 800;    
+}
+
+#box-section .row-styling .box .side .body a:hover
+{
+    color: #1780ae; text-decoration: underline;
+}
+
+#box-section .row-styling .box .side .footter a
+{
+    cursor: pointer;
+                                    color: #1da1db;    
+}
+#box-section .row-styling .box .side .footter a:hover
+{
+    color: #1780ae; text-decoration: underline;
+}
+
+#box-section .row-styling .box .side .body button
+{
+    background-color: #60bde6;
+                                    color: #fff;
+                                    border-color: #60bde6;    padding: 19px 48px;font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 3px;
+    transition: all .3s;    
+}
+
+#box-section .row-styling .box .side .body button:hover
+{
+    background-color: #60bde6;
+    color: #fff;
+    border-color: #60bde6;
+}
+
+#box-section .row-styling .box .right-side-box .side .title
+{
+    font-weight: 600;
+    letter-spacing: .03em;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    line-height: 1.4em;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0 15px;
+    padding-bottom: 1em;
+    max-width: 650px;
+    margin: 0 auto;
+}
+#box-section .row-styling .box .right-side-box .side .body p
+{
+    color: #797979;
+    letter-spacing: 0;
+    line-height: 1.6em;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+}
+
+/* Box-Section End */
+
+/* Footer Section  */
+#footer
+{
+    background-color: #33475B;
+    padding: 3rem 1rem;
+}
+
+#footer .upper
+{
+    color: #797979;
+        letter-spacing: 0;
+        line-height: 1.6em;
+        margin-bottom: 1.5em;
+        margin-top: 1em;
+}
+
+#footer .links-holder
+{
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+#footer .links-holder .link span
+{
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+#footer .links-holder .link span a
+{
+    color: #cbd6e2;
+    text-decoration: none;
+}
+
+#footer .links-holder .link span a:hover
+{
+    color: #7fd0dd;
+    text-decoration: none;
+}
+
+/* Footer Section End */

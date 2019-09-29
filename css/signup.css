@@ -1,0 +1,208 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-fluid
+{
+    padding:0;
+    margin: 0;
+}
+.background
+{
+    background-image: linear-gradient(to top, rgb(0, 164, 189), rgb(0, 189, 165));
+    min-height: 100vh;
+}
+.holder
+{
+    order: -1;
+    padding:5rem;
+}
+.background .text
+{
+    min-height: 100vh;
+    color:#fff;
+    font-weight: 500;
+    font-size: 22px;
+}
+.background .text p
+{
+    max-width:60%;
+}
+
+form
+{
+    margin: auto;
+    width:50%;
+}
+
+.top-bar
+{
+    position: relative;
+    margin: 1rem 0;
+}
+
+.top-bar .text-right
+{
+    position: absolute;
+    right: 1rem;
+    width: 100%;
+    top: 0;
+}
+
+.top-bar .main-heading-holder
+{
+    margin-top: 1.9rem;
+}
+
+.top-bar .main-heading-holder .heading
+{
+    margin-bottom : 0.3rem;
+}
+
+.top-bar .main-heading-holder .description p{
+    font-size : 14px;
+}
+
+.top-bar .main-heading-holder
+{
+    margin-bottom: 3rem;
+}
+
+.google-sign-in
+{
+    background: #5886d4;
+    border-radius: .1875rem;
+    border: none;
+    clear: both;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    white-space: nowrap;
+    width: 50%;
+    font-weight: 500;
+}
+.google-sign-in:hover
+{
+    background: #4776c4;
+    color: #fff;
+}
+
+.google-sign-in .icon
+{
+    -webkit-border-top-left-radius: .09375rem;
+    border-top-left-radius: .09375rem;
+    -moz-border-radius-bottomleft: .09375rem;
+    -webkit-border-bottom-left-radius: .09375rem;
+    border-bottom-left-radius: .09375rem;
+    background-color: #fff;
+    background-image: url(//static.hsappstatic.net/LoginUI/static-1.3520/img/google-logo.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    height: 38px;
+    left: 1px;
+    position: absolute;
+    top: 1px;
+    vertical-align: middle;
+    width: 38px;
+}
+
+.google-sign-in .buttonText
+{
+    display: inline-block;
+    font-family: Roboto,sans-serif;
+    margin-top: 9px;
+    vertical-align: middle;
+}
+
+.google-sign-in .buttonText p
+{
+    color:#fff;
+    font-size: 13px;
+}
+
+.seperator
+{
+    margin-top: 3rem;
+}
+.seperator p 
+{
+    color : #CBD6E2;
+}
+
+.seperator p::before
+{
+    display: inline-block;
+    content: "";
+    height: 10px;
+    width:20%;
+    border-top: 2px solid rgb(203, 214, 226);
+    margin: 0px 30px 0px 0px;
+    vertical-align: sub;
+}
+
+.seperator p::after
+{
+    display: inline-block;
+    content: "";
+    height: 10px;
+    width:20%;
+    border-top: 2px solid rgb(203, 214, 226);
+    margin: 0px 0px 0px 30px;
+    vertical-align: sub;
+}
+
+input[type='text'] ,input[type='email']
+{
+    padding: 9px 10px;
+    border-radius: 3px;
+    border: 1px solid #cbd6e2;
+    font-size: 16px;
+    transition: all .15s ease-out;
+    background-color: #f5f8fa;
+    color: #33475b;
+    height: 40px;
+    line-height: 22px;
+    text-align: left;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.btn-primary
+{
+    width: 100%;
+    background-color: #eaf0f6!important;
+    border-color: #eaf0f6!important;
+    color: #b0c1d4!important;
+    cursor: not-allowed !important;
+    margin-bottom: 1.7rem;
+}
+.text-holder p
+{
+    width: 85%;
+    font-size : 12px;
+    line-height: 2;
+}
+.text-holder p a
+{
+   font-weight: 600;
+}
+
+.form-end-text
+{
+    margin-bottom : 2.5rem;
+}
+.footer{
+    margin-top : 2.5rem;
+}
+.footer .privacy p
+{
+    font-size:12px;
+    width:97%;
+}
