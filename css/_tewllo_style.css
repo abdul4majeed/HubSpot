@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.bg-hero
+{
+    background-image: url(https://www.jumio.com/app/uploads/2019/06/BACKGROUND.webp), url(https://www.jumio.com/app/uploads/2019/06/BACKGROUND.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.text-holder
+{
+    border:1px solid red;
+    margin: 0 4rem;
+    padding: 5rem 0 15rem 0;
+}
+.header {
+    max-width: 540px;
+    margin-bottom : 1.5rem;
+}
+.header h1
+{
+    font-size : 68px;
+    color:#fff;
+}
+
+.text-bottom
+{
+    max-width: 500px;
+    margin-bottom : 1.5rem;
+}
+
+.text-bottom p
+{
+    font-size : 16px;
+    color:#fff;
+}
+
+.btn-looks
+{
+    border:3px solid green;
+    max-width:390px;
+}
+
+.btn-looks a p
+{
+    text-transform: capitalize;
+    color: #9FC580;
+    font-size: 18px;
+    margin:1rem 0rem;
+}
+.my-child{
+    text-transform: uppercase;
+}
+.btn-looks:hover
+{
+    background-color: #9FC580;
+}
+.btn-looks:hover .my-child
+{
+    background-color: #9FC580;
+    color: #fff;
+}
+
+.btn-looks a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* Resource Section */
+
+.res-sec{
+    background: url('https://24qw851gqtx73tumda4eyn98-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/bg-resources-header.jpg') 50% 50% no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 70px 0;
+}
+.res-sec .text{
+    font-size: 35px;
+    font-family: 'Titillium Web',sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 105px;
+    text-align: center;
+}
+
+.card .card-body{
+    color:#000000;
+    padding:0 !important;
+}
+.card .card-title{
+    color:#000000;
+    padding:1.25rem;
+}
+
+.card .card-text{
+    padding:1.25rem;
+    font-weight: bolder;
+}
+
+.my_footer
+{
+    padding:10rem 5rem;
+    margin:auto;
+}
